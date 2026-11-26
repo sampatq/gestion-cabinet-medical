@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+
+# Local databases and uploads
+*.sqlite3
+*.db
+media/
+
+# Local secrets
+.env
+.env.*
+!.env.example

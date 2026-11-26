@@ -20,4 +20,3 @@ Ouvrir ensuite http://127.0.0.1:8000/admin/.
 La base SQLite locale, l'environnement virtuel et les fichiers médias ne sont pas versionnés. Les migrations versionnées reconstruisent le schéma.
 
 Pour un déploiement, définir une clé privée dans la variable d'environnement `DJANGO_SECRET_KEY` et configurer `DEBUG`, `ALLOWED_HOSTS` et les paramètres de base de données pour l'environnement ciblé.
-
